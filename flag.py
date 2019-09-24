@@ -5,7 +5,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import time
 
-flag = Image.open('')  # flag dir here
+flag = Image.open('China-Flag.png')  # flag dir here
 flag_w, flag_h = flag.size
 counter = 0
 
